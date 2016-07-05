@@ -19,7 +19,7 @@ Formula:
 * **PLA**: 40° with hair spray remain the best solution ( default setting ). If you have not hair spray, you must set 70° on the bed.  
 
 ## Fan guide line:
-For **PLA** prefer set the speed layers for layers, Cura does not work good at free wheel.... By default i set, only for PLA, speed 100 at the start.  
+For **PLA** prefer set the speed layers by layers on machine, Cura does not work good at free wheel....  
 
 Remember Gcode's setting:  
 * fan on: M106 S[0-255]
