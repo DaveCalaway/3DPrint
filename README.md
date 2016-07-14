@@ -3,7 +3,7 @@ Machine setting for 3D Printers
 
 This repository it's made for [**Optimus**](http://goo.gl/feKXvQ)'s printers.  
 
-##Cura 2.x.x
+##Cura 15.x.x
 ### Layers height:  
 Formula:  
 `nozzle / 2` max  
