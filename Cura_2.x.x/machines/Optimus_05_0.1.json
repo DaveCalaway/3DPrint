@@ -1,7 +1,7 @@
 {
     "id": "Optimus",
     "version": 1, 
-    "name": "Optimus",
+    "name": "Optimus_05_0.1",
     "manufacturer": "Other",
     "author": "Other",
     "icon": "icon_ultimaker2.png",
@@ -11,12 +11,12 @@
 
     "machine_settings": {
         "machine_heated_bed": { "default": true },
-        "machine_width": { "default": 200 },
-        "machine_height": { "default": 200 },
-        "machine_depth": { "default": 200 },
+        "machine_width": { "default": 195 },
+        "machine_height": { "default": 195 },
+        "machine_depth": { "default": 195 },
         "machine_center_is_zero": { "default": false },
-        "machine_nozzle_size": { "default": 0.4 },
-        "material_diameter": { "default": 1.75 },
+        "machine_nozzle_size": { "default": 0.5 },
+        "material_diameter": { "default": 3.00 },
         "machine_nozzle_heat_up_speed": { "default": 2.0 },
         "machine_nozzle_cool_down_speed": { "default": 2.0 },
         "machine_head_shape_min_x": { "default": 75 },
@@ -27,7 +27,7 @@
         "machine_gcode_flavor": { "default": "RepRap (Marlin/Sprinter)" },
 
         "machine_start_gcode": {
-    "default": "G21 ;metric value\nG90 ;Absolute positioning\nM140 S40 ;120 faccio partire il lettino\nM104 S195 \nG28 ;X0 Y0 Z0 Home axis\nG29 ;auto bed leveling\nM109 T0 S200 ;aspetta temperatura estrusore\nM82 ; Extruder in absolute mode\nG92 E0 ; Reset extruder position\nG1 F200 E3 ;extrude 3mm of feed stock\nG92 E0 ;zero the extruded length again"
+    "default": "G21 ;metric value\nG90 ;Absolute positioning\nG28 ;X0 Y0 Z0 Home axis\nG29 ;auto bed leveling\nM82 ; Extruder in absolute mode\nG92 E0 ; Reset extruder position\nG1 F200 E3 ;extrude 3mm of feed stock\nG92 E0 ;zero the extruded length again"
         },
         "machine_end_gcode": {
             "default": "M104 S0 ;extruder heater off\nM140 S0 ;heated bed heater off (if you have it)\nM107\nG91 ;relative positioning\nG1 E-1 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure\nG1 Z+0.5 E-1 X-20 Y-20 F{travel_speed} ;move Z up a bit and retract filament even more\nG28 X0 ;move X/Y to min endstops, so the head is out of the way\nM84 ;steppers off\nG90 ;absolute positioning"

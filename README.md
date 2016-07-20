@@ -31,7 +31,10 @@ Remember Gcode's setting:
 
 ##Cura 2.x.x
 It's available for download in its folder, profile and machine setting.  
-Locate the machine setting Json files, which are located here: C:\Program Files\Cura 2.1\resources\machines (for Windows users).  
+Locate the files: 
+* C:\Program Files\Cura 2.1\resources\machine
+* C:\Program Files\Cura 2.1\resources\profiles\general
+* C:\Program Files\Cura 2.1\resources\profiles\materials
 
 
 --------------------------------------------------------------  
