@@ -16,7 +16,7 @@
         "machine_depth": { "default": 195 },
         "machine_center_is_zero": { "default": false },
         "machine_nozzle_size": { "default": 0.5 },
-        "material_diameter": { "default": 3.00 },
+        "material_diameter": { "default": 2.85 },
         "machine_nozzle_heat_up_speed": { "default": 2.0 },
         "machine_nozzle_cool_down_speed": { "default": 2.0 },
         "machine_head_shape_min_x": { "default": 75 },

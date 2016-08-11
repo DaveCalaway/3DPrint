@@ -3,7 +3,6 @@ Machine setting for 3D Printers
 
 This repository it's made for [**Optimus**](http://goo.gl/feKXvQ)'s printers.  
 
-##Cura 15.x.x
 ### Layers height:  
 Formula:  
 `nozzle / 2` max  
@@ -23,7 +22,7 @@ Steps resolution: 0.05
 ### Fan guide line:
 For **PLA** prefer set the speed layers by layers on machine, Cura does not work good at free wheel....  
 
-Remember Gcode's setting:  
+Remember Gcode's setting, useful for Cura 15.x.x:  
 * fan on: M106 S[0-255]
 * fan off: M107  
 
@@ -35,6 +34,13 @@ Locate the files:
 * C:\Program Files\Cura 2.1\resources\machine
 * C:\Program Files\Cura 2.1\resources\profiles\general
 * C:\Program Files\Cura 2.1\resources\profiles\materials
+
+####Cura 2.1.2 bug: https://goo.gl/R6YLx4  
+Every files you will create has need a check, open it and delete every "M109", accept the first on top.  
+
+
+##Cura 15.x.x
+Load the profiles with: File > Open Profile
 
 
 --------------------------------------------------------------  
