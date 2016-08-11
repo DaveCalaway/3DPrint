@@ -42,6 +42,5 @@ Every files you will create has need a check, open it and delete every "M109", a
 ##Cura 15.x.x
 Load the profiles with: File > Open Profile
 
-
 --------------------------------------------------------------  
 *Dave Calaway*.
