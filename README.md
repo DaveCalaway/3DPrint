@@ -10,7 +10,7 @@ Formula:
 Steps resolution: 0.05  
 
 ### Speed settings:  
-1. **Plastink** 
+1. **Plastink**
   * PLA: 35 – 80 mm/sec  
   * ABS: 35 mm/sec  , you can rise up to 50mm/sec after 10 layers.
 2. --------
@@ -29,13 +29,13 @@ Remember Gcode's setting, useful for Cura 15.x.x:
 **ABS** don't need fan, only in rare cases.  
 
 ##Cura 2.x.x
-It's available for download in its folder, profile and machine setting.  
-Locate the files: 
+It's available for download in this folder, profile and machine setting.  
+Locate the files:
 * C:\Program Files\Cura 2.1\resources\machine
 * C:\Program Files\Cura 2.1\resources\profiles\general
 * C:\Program Files\Cura 2.1\resources\profiles\materials
 
-####Cura 2.1.2 bug: https://goo.gl/R6YLx4  
+####Cura 2.1.2 & 2.1.3 bug: https://goo.gl/R6YLx4  
 Every files you will create has need a check, open it and delete every "M109", accept the first on top.  
 
 
