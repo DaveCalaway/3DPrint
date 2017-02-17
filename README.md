@@ -11,7 +11,7 @@ Steps resolution: 0.05
 
 ### Speed settings:  
 1. **Plastink**
-  * PLA: 20 – 80 mm/sec  
+  * PLA: 20 – 70 mm/sec  
   * ABS: 35 mm/sec  , you can rise up to 50mm/sec after 10 layers.
 2. --------
 
