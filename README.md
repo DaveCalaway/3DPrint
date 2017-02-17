@@ -15,6 +15,11 @@ Steps resolution: 0.05
   * ABS: 35 mm/sec  , you can rise up to 50mm/sec after 10 layers.
 2. --------
 
+### Retraction settings:
+ - Retraction distance: 5 mm
+ - Retraction speed: 30 mm/s
+
+
 ### Bed guide line:  
 * **ABS**: no problem with default setting.  
 * **PLA**: 40° with hair spray remain the best solution ( default setting ). If you have not hair spray, you must set 60° on the bed.  
