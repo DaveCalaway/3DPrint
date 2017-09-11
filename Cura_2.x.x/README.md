@@ -3,7 +3,7 @@
 For do it you need the two files called "cura_2.x.x.png"  and "start_end_code.rtf".  
 Open Cura 2.X and add new machine, copy the image "cura_2.x.x.png" - edit only your nozzle dimension if necessery - and in the star/end code copy past the file "start_end_code.rtf".
 
-Repeat this process for both machines: 05 and 04 .  
+Repeat this process for all machines.  
 
 **Second you need to load the profiles for the machines:**
 

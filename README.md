@@ -15,7 +15,7 @@ Steps resolution: 0.05
   * ABS: 35 mm/sec  , you can rise up to 50mm/sec after 10 layers.
 2. --------
 
-### Retraction settings:
+### Retraction settings - ONLY for Optimus - :
  - Retraction distance: 2 mm
  - Retraction speed: 25 mm/s
 
