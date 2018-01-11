@@ -1,0 +1,27 @@
+Start code:
+
+;start code
+G90
+M82
+G21                 ;metric value
+G28                ;X0 Y0 Z0 Home axis
+G1 Z5 F800
+G92 E0              ; Reset extruder position
+G1 F200 E3       ;extrude 3mm of feed stock
+G92 E0              ;zero the extruded length again
+M117 stampa in corso
+
+
+End Code:
+
+;End GCode
+M104 S0                                    ;extruder heater off
+M140 S0                                    ;heated bed heater off (if you have it)
+M107                                         ; Fan OFF
+G91                                            ;relative positioning
+G1 E-1 F300                               ;retract the filament a bit before lifting the nozzle  to release some of the pressure
+G1 Z+0.5 E-1 X-20 Y-20 F7200 ;move Z up a bit and retract filament even more
+G28 X Z                                       ;move X/Z to min endstops so the head is out of the way
+M84                                            ;steppers off
+G90                                            ;absolute positioning
+M117 Stampa terminata
