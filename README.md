@@ -37,12 +37,12 @@ Remember Gcode's setting, useful for Cura 15.x.x:
 * fan on: M106 S[0-255]
 * fan off: M107  
 
-## Cura 2.x.x
-Used the image to setting machine, and profiles for material setting.
+## Cura 2.x.x / 3.x
+Used the image to setting machine and profiles.
 
 
 ## Cura 15.x.x
-Load the profiles with: File > Open Profile  
+Load the profiles with: File > Open Profile   
 
 --------------------------------------------------------------  
 *Dave Calaway*.
