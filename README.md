@@ -26,7 +26,7 @@ Steps resolution: 0.05
 	* *Bed*: 110° is perfect.  
 * **HIPS**:
 	* *Printer*: 225°
-	* *Bed* : 100°
+	* *Bed* : 110°
 * **PLA**:   
 	* *Printer*: 195°
 	*  *Bed*: 40° with hair spray remain the best solution ( default setting ). If you have not hair spray, you must set 60° on the bed.  
