@@ -25,7 +25,7 @@ Steps resolution: 0.05
 	* *Printer*: 245°
 	* *Bed*: 110° is perfect.  
 * **HIPS**:
-	* *Printer*: 225°
+	* *Printer*: 240°
 	* *Bed* : 110°
 * **PLA**:   
 	* *Printer*: 195°
@@ -35,6 +35,8 @@ Steps resolution: 0.05
 For **PLA** prefer set the speed layers by layers on machine, Cura does not work good at free wheel....  
 
 **ABS** 80 of 255 - or 30% - only after the first layer.  
+
+**HIPS** no fan needed.
 
 Remember Gcode's setting, useful for Cura 15.x.x:  
 * fan on: M106 S[0-255]
