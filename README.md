@@ -22,19 +22,19 @@ Steps resolution: 0.05
 
 ### Temperature guide line:  
 * **ABS**:
-	* *Printer*: 245°
-	* *Bed*: 110° is perfect.  
+	* *Printer*: 275°
+	* *Bed*: 110°  
 * **HIPS**:
-	* *Printer*: 240°
+	* *Printer*: 275°
 	* *Bed* : 110°
 * **PLA**:   
-	* *Printer*: 195°
+	* *Printer*: 200°
 	*  *Bed*: 40° with hair spray remain the best solution ( default setting ). If you have not hair spray, you must set 60° on the bed.  
 
 ### Fan guide line:
 For **PLA** prefer set the speed layers by layers on machine, Cura does not work good at free wheel....  
 
-**ABS** 80 of 255 - or 30% - only after the first layer.  
+**ABS** 80 of 255 - or 30% - only after the second layer.  
 
 **HIPS** no fan needed.
 
